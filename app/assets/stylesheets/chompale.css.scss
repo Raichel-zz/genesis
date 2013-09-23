@@ -1,0 +1,57 @@
+.theme-item {
+    display: none;
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.theme-img {
+    width: 100px;
+    padding-left: 35px;
+}
+
+.theme-name {
+    left: 15px;
+    position: absolute;
+    top: 140px;
+    width: 140px;
+}
+
+#wizardContainer {
+    display: none;
+    overflow: auto;
+    min-height: 600px;
+}
+  
+input.rounded-input-text {
+    background-color: #F7F7F7;
+    border: medium none;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px 10px 7px 0px;
+}
+  
+#decalCanvas {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#secondStep {
+    display:none;
+}
+
+
+#backgroundDiv {
+    position: absolute;
+    z-index: -100;
+    background: url("/assets/site-background.jpg") center center no-repeat; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+.main-container {
+    padding-top: 60px;
+}

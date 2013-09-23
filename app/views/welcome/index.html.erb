@@ -1,0 +1,50 @@
+<div id="backgroundDiv"></div>
+<div class="container main-container">
+	
+	<!-- Welcome message and buttons -->
+	<div id="welcomeRow" class="row">
+		<div class="span7"></div>
+		<div class="span5">
+			<div class="hero-unit">
+				<h1 class="text-right">עיצוב לעוגות יום הולדת</h1>
+	
+				<p class="text-right">
+					עכשיו אפשר לשדגכד שדגכ שד גכ שדג כ  שדגכשדגכשדגכ שדגכ שדגכ שדגכ  שדגכ ש דגכ  כע גכעדג כע דגכ שק רשדגכשדגכ 
+				</p>
+	
+				<div class="btn btn-large btn-success text-right" onclick="showWizard()">
+					התחל לעצב עכשיו!
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- The decal's builder wizard -->
+	<div id="wizardContainer" class="container">
+
+		<!-- Step I -->
+		
+		<!-- An hidden template for theme tile item -->
+		<div id="themeItemWrapper" style="display:none">
+			<div class="theme-item">
+				<img class="theme-img"/>
+				<span class="theme-name text-center"></span>
+			</div>
+		</div>
+		
+		<div id="firstStep" align="right">
+			<input id="nameFilterInput" type="text" onKeyUp="filterAds()" placeholder="חפש דמות" class="rounded-input-text text-right"/>
+			<hr>
+			<div id="themesTileContainer" class="container">
+				
+			</div>
+		</div>
+		
+		<!-- Step II  -->
+		<div id="secondStep">
+			<canvas id="decalCanvas" width="420" height="420"/>
+		</div>
+	
+	</div>
+</div>
+
